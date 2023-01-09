@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color:fuchsia;
+    color: black;
+}
+
+#bio:hover {
+    color: brown;
+}
