@@ -1,0 +1,26 @@
+.container{
+    background-color: rgba(117, 108, 108, 0.498);
+    border: 3px solid red;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    /* grid-gap: 10px;
+    justify-content: space-around;
+    justify-content: space-between; */
+    /* align-items: center; */
+    /* ALIGN CONTENT IS FOR SPACING BETWEEN TWO ROWS */
+    /* align-content: space-between; */
+    place-content: center;
+    place-items: center;
+}
+.box{
+    background-color: rgb(193, 164, 121);
+    border: 2px solid black;
+}
+#box-1{
+    justify-self: end;
+    justify-self: center;
+    align-self: center;
+}

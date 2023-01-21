@@ -7,7 +7,12 @@ aside {
     background-color:fuchsia;
     color: black;
 }
-
-#bio:hover {
+.tear:hover{
+    color: rgb(84, 76, 163);
+    background-color: orange;
+    cursor: pointer;
+}
+.tear{
+    text-decoration: none;
     color: brown;
 }

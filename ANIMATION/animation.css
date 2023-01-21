@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(210, 166, 101);
+    width: 800px;
+    height: 155px;
+    border: 3px solid black;
+    display: flex;
+}
+
+.box {
+    background-color: rgb(104, 197, 109);
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 1px;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-delay: 1.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+}
+@keyframes move{
+    /* from{
+        width: 150px;
+    }
+    to{
+        width: 700px;
+    } */
+    0%{
+        width: 212px;
+        background-color: orange;
+    }
+    30%{
+        width: 35%;
+        background-color: orange;
+    }
+    65%{
+        width: 70%;
+        background-color:white;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
